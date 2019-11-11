@@ -18,7 +18,7 @@ Collections.sort(books,(o1,o2) ->  o1.getName().compareTo(o2.getName()));
 	return books;
 	
 }
-
+//new
 public static void main(String args[])
 {
 	System.out.println(new BookService().getBooksInSort());
